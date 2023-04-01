@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Palanquin', sans-serif;
+}
+
+.sec2 .logo a img{
+    width: 200px;
+    margin-left: -200px;
+}
+.sec2 .cover{
+    background-image: url(../images/background.jpg);
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+
+.sec2 .home{
+    margin: 300px;
+}
+
+.sec2 .home h1{
+    color: white;
+    text-align: center;
+    font-size: 4rem;
+    letter-spacing: 2px;
+    line-height: 70px;
+    font-family: 'Palanquin', sans-serif;
+}
+
+.sec2 .home h2,h3{
+    margin: 20px 0;
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.sec2 form{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    border: 1px;
+    height: 100px;
+}
+.sec2 form button{
+    width: 250px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.sec2 form  input{
+    width: 650px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.sec1{
+        display: flex;
+        justify-content: space-between;
+        background-color: transparent;
+        bottom: 0;
+        height: 0rem;
+        left: 0;
+        margin: 0 auto;
+        max-width: 1920px;
+        padding-top: 0px;
+        position: relative;
+        right: 0;
+        top: 0;
+        transition: background-color .5s;
+        width: 100%;
+        z-index: 10;
+    }
+
+.sec1 a img{
+    width: 200px;
+    margin: 35px 60px;
+}
+
+
+.sec1 .btn2{
+    background-color: red;
+    width: 110px;
+    padding: 5px;
+    margin: 30px;
+    margin-right: 50px;
+    color: white;
+    font-family: 'Palanquin', sans-serif;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 6px;
+} 
+
+.sec1 .btn1 {
+    width: 100px;
+    padding: 5px;
+    margin: 30px;
+    margin-right: 50px;
+    color: white;
+    font-family: 'Palanquin', sans-serif;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 6px;
+
+}
+
+.sec3 {
+    background-color: black;
+    height: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sec3 .div1 {
+    color: white;
+    margin: 200px;
+    font-size: 30px;
+    font-family: 'Sawarabi Gothic', sans-serif;
+}
+.sec3 .div0 {
+    margin: 80px;
+}
+
+.sec4 .how  button {
+    width: 900px;
+    margin: 25px;
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    background-color: rgb(50, 49, 49);
+    text-align: left;
+    cursor: pointer;
+  
+    
+}
+.sec4{
+    background-color: black;
+    
+  
+}
+
+.sec4 h1{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 3.125rem;
+}
+
+.sec4 .i1 i {
+    margin-left: 600px;    
+}
+
+.sec4 form {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    border: 1px;
+    height: 100px;
+}
+
+.sec4 form button {
+    width: 250px;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+.sec4 form input {
+
+    width: 650px;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 15px;
+    
+}
+
+.sec5 {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    margin-top: 20px;
+    background-color: black;
+}
+.h22 {
+    padding-top: 50px;
+     background-color: transparent;
+        bottom: 0;
+        height: 0rem;
+        left: 0;
+        /* margin: -12px; */
+        margin-left: 1px;
+        max-width: 1920px;
+        padding-top: 0px;
+        position: relative;
+        right: 0;
+        top: 0;
+        transition: background-color .5s;
+        width: 100%;
+        z-index: 10;
+        color: gray;
+}
+
+.sec5 a {
+    color: gray;
+    text-decoration: none;
+}
+
+.btn4 .btn3{
+    margin-left: 180px;
+    padding: 10px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    width: 170px;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 5px solid white;
+    padding-bottom: 8px;
+}
+.btn4{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+}
+.btn4 p{
+    margin-left: 170px;
+    padding: 10px;
+    margin-bottom: 30px;
+    width: 150px;
+    color: gray;
+    border: 1px white;
+    border-radius: 5px solid white;
+}
+.h23 {
+    padding-top: 50px;
+    background-color: transparent;
+    bottom: 0;
+    height: 0rem;
+    left: 0;
+    margin: -16px;
+    margin-left: 1px;
+    max-width: 1920px;
+    padding-top: 0px;
+    position: relative;
+    right: 0;
+    top: 0;
+    transition: background-color .5s;
+    width: 100%;
+    z-index: 10;
+    color: gray;
+}
+
+.div0 {
+    position: relative;
+    z-index: 2;
+}
+
+.videoo{
+    height: 100%;
+    left: 65.5%;
+    max-height: 33.5%;
+    max-width: 100%;
+    position: absolute;
+    top: 263%;
+    transform: translate(-3.5%, 10%);
+    width: 100%;
+    width: 402px;
+ }
+
+
+
+.viideo{
+
+    height: 100%;
+    left: 61.5%;
+    max-height: 29.5%;
+    max-width: 100%;
+    position: absolute;
+    top: 124%;
+    transform: translate(-4.5%, 7%);
+    width: 100%;
+    width: 550px;
+}
